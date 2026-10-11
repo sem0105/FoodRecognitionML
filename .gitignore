@@ -1,0 +1,46 @@
+
+# Python virtual environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Flutter generated files
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/build/
+
+# Android generated files
+**/android/.gradle/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+# Datasets - keep large image collections off GitHub
+dataset/
+
+# Model files - add separately if appropriate
+*.keras
+*.h5
+*.pt
+*.pth
+*.tflite
+
+# Training outputs
+training_accuracy.png
+training_loss.png
+
+# Accidental file
+/git
